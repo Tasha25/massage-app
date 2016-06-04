@@ -35,6 +35,9 @@ img {
   width: auto;
 }
 
+.clearfix {
+  clear:both;
+}
 /*------------------------
 *          Body Wrapper
 ------------------------*/
@@ -114,11 +117,142 @@ nav ul li a{
 nav ul li a:hover, nav ul li a:active a{
   background-color: #878E63;
   color: #F1F0D1;
-  }
+}
+
+
+/*------------------------
+*          Banner Area
+------------------------*/
 
 .banner img{
   border-top: 1px solid #878E63;
   border-bottom: 1px solid #878E63;
   width: 100%;
+}
+
+
+/*------------------------
+*          Left Column
+------------------------*/
+
+.left-col {
+  float: left;
+  margin: -2% 1% 1% 1%;
+  width: 55%;
+}
+
+/*------------------------
+*          Sidebar Area
+------------------------*/
+.sidebar {
+  float: right;
+  margin: 1%;
+  text-align: center;
+  width: 40%;
+}
+
+/*------------------------
+*          Therapy Area
+------------------------*/
+.therapy {
+  height: auto;
+  float: left;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.section {
+  float: left;
+  width: 29%;
+  margin: 2% 2%;
+  padding:
+
+}
+
+/*------------------------
+*          Footer Area
+------------------------*/
+
+footer{
+  background: #878E63;
+  overflow: hidden;
+  width: 100%;
+}
+
+footer p, footer h3 {
+  color: #F1F0D1;
+}
+
+footer p a {
+  color: #F1F0D1;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+ul li img {
+  height: 50px;
+}
+
+
+/*------------------------
+*          Media Area
+------------------------*/
+
+@media screen and (max-width: 478px) {
+  body {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  nav {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  nav ul li {
+    border-top: 1px solid #878E63;
+    border-top: 0px solid #878E63;
+    border-top: 1px solid #878E63;
+    border-top: 0px solid #878E63;
+    margin-left: 0 auto;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  nav ul li a {
+    padding: 8px 0;
+    font-size: 16px;
+  }
+
+.left-col {
+  width: 100%;
+}
+
+.sidebar {
+  width: 100%;
+}
+
+.section {
+  float: left;
+  width: 100%;
+  margin: 0;
+}
 
 }
